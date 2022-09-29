@@ -2,6 +2,7 @@
   "dashboardMetadata": {
     "name": "☁ 👨‍🏫 Hello firstName.key lastName.key! Welcome your 🎡 Kubernetes Developer Cluster",
     "shared": true,
+    "owner": "id.key",
     "sharingDetails": {
       "linkShared": true,
       "published": true

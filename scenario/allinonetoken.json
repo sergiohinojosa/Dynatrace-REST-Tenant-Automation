@@ -18,6 +18,12 @@
 		"TenantTokenManagement",
 		"DTAQLAccess",
 		"ExternalSyntheticIntegration",
-		"WriteConfig"
+		"WriteConfig",
+		"settings.read",
+		"settings.write",
+		"entities.read",
+		"entities.write",
+		"activeGateTokenManagement.create",
+		"metrics.ingest"
 	]
 }

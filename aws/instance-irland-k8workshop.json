@@ -1,15 +1,15 @@
 {
-	"aws_region": "eu-west-1",
+	"aws_region": "eu-west-2",
 	"instanceDetails": {
 		"userData": "ubuntu-setup-microk8-k8workshop.sh",
-		"imageId": "ami-035966e8adab4aaad",
-		"keyName": "bootcamp-19",
-		"instanceType": "t2.xlarge",
+		"imageId": "ami-0917237b4e71c5759",
+		"keyName": "ThomasBrandl",
+		"instanceType": "t3.xlarge",
 		"securityGroups": [
-			"BootcampOpen"
+			"launch-wizard-3"
 		],
 		"securityGroupIds": [
-			"sg-075aacf15884fe125"
+			"launch-wizard-3"
 		],
 		"blockDeviceMappings": [
 			{

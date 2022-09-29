@@ -6,7 +6,7 @@
 		"_comment_ubuntu20": "ami-0917237b4e71c5759",
 		"_comment_ubuntu18": "ami-006a0174c6c25ac06",
 		"keyName": "bc19-lon.pem",
-		"instanceType": "t2.2xlarge",
+		"instanceType": "t3.2xlarge",
 		"securityGroups": [
 			"launch-wizard-3"
 		],
@@ -17,7 +17,7 @@
 			{
 				"DeviceName": "/dev/sda1",
 				"Ebs": {
-					"VolumeSize": 20,
+					"VolumeSize": 60,
 					"DeleteOnTermination": true
 				}
 			}
@@ -32,7 +32,7 @@
 					},
 					{
 						"Key": "Workshop",
-						"Value": "Dynatrace Keptn"
+						"Value": "Dynatrace HOT"
 					},
 					{
 						"Key": "tenantUrl",

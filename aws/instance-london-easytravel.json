@@ -4,7 +4,7 @@
 		"userData": "ubuntu-setup-easytravel.sh",
 		"imageId": "ami-0917237b4e71c5759",
 		"keyName": "bc19-lon.pem",
-		"instanceType": "t2.large",
+		"instanceType": "t3.large",
 		"securityGroups": [
 			"launch-wizard-3"
 		],

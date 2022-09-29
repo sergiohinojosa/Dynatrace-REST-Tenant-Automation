@@ -1,6 +1,7 @@
 log/*
 data/*
 csv/*-*
+csv/*
 csv/temp/*-*
 env*
 # We dont want to add files nor folders with a -
@@ -19,3 +20,7 @@ webautomation
 webautomation/*
 # ignore temp files
 .~*
+# ignore credentials
+*.ppk
+.aws/credentials
+*.pem

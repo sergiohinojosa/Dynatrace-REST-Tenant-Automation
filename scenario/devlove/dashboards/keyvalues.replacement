@@ -1,0 +1,9 @@
+{
+  "firstName.key": "firstName",
+  "lastName.key": "lastName",
+  "nipioDomain.key": "nipioDomain",
+  "sshUser.placeholder": "dynatrace",
+  "sshPassword.placeholder": "secr3t",
+  "master.placeholder": "18-134-13-24.nip.io",
+  "mz-evalservice.key": "mz_evalservice"
+}

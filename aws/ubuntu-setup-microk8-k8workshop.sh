@@ -27,8 +27,9 @@ usermod -a -G docker ubuntu ;} >> $LOGFILE 2>&1
 
 # Install Kubernetes 1.15
 printf "\n\n***** Install Microk8s 1.15 and allow the KubeApiServer to run priviledged pods***\n" >> $LOGFILE 2>&1 
-{ snap install microk8s --channel=1.15/stable --classic ;\
-bash -c "echo \"--allow-privileged=true\" >> /var/snap/microk8s/current/args/kube-apiserver" ;} >> $LOGFILE 2>&1
+{ snap install microk8s --channel=1.23/stable --classic ;\
+#bash -c "echo \"--allow-privileged=true\" >> /var/snap/microk8s/current/args/kube-apiserver" ;
+} >> $LOGFILE 2>&1
 
 printf "\n\n***** Update IPTABLES,  Allow traffic for pods internal and external***\n" >> $LOGFILE 2>&1 
 { iptables -P FORWARD ACCEPT ;\

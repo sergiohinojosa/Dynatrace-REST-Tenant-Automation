@@ -2,6 +2,7 @@
     "dashboardMetadata": {
       "name": "☁ Autonomous Cloud Concepts with Keptn - firstName.key lastName.key",
       "shared": true,
+      "owner": "admin",
       "sharingDetails": {
         "linkShared": true,
         "published": true

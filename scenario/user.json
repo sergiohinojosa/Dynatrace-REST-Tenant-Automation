@@ -3,6 +3,7 @@
 	"email": "",
 	"firstName": "",
 	"lastName": "",
+	"passwordClearText":"Dynatrac3",
 	"groups": [
 		""
 	]
